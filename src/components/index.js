@@ -65,7 +65,8 @@ const AppNavigator = StackNavigator({
     IndividualDeck: {
         screen: IndividualDeck,
         navigationOptions: {
-            headerTintColor: '#000',title: 'Card',
+            headerTintColor: '#000',
+            title: 'Card',
         },
     },
     Quiz: {

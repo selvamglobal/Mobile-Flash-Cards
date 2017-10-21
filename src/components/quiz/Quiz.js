@@ -51,7 +51,7 @@ export default class Quiz extends React.Component {
                             </View>
                         </View>
 
-                        <View style={[styles.group, {flex:3}]}>
+                        <View style={[styles.group, {flex:2}]}>
                             <View>
                                 {shouldShowAnswer ? (
                                     <View style={{alignItems: 'center'}}>
